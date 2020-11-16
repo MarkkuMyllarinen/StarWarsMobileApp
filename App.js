@@ -5,16 +5,20 @@ import HomePage from "./components/HomePage"
 import { createStackNavigator } from "@react-navigation/stack"
 import { NavigationContainer } from '@react-navigation/native';
 import PeopleList from './components/PeopleList';
+import PeopleAbout from './components/about-page/PeopleAbout'
 
 const Stack = createStackNavigator();
 
 
 export default function App() {
+
   return (
-    <NavigationContainer>
-      <Stack.Navigator headerMode="none">
+
+    <NavigationContainer >
+      <Stack.Navigator headerMode="none" style={styles.container}>
         <Stack.Screen name="Home" component={HomePage} />
         <Stack.Screen name="People" component={PeopleList} />
+        <Stack.Screen name="PeopleAbout" component={PeopleAbout} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -23,8 +27,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: 'black',
   },
 });

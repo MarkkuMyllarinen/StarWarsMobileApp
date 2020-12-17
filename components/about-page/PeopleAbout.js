@@ -12,9 +12,9 @@ const windowHeight = Dimensions.get('window').height;
 
 export default function PeopleAbout({ navigation, route }) {
 
-    let { item } = route.params.person
+    let { person } = route.params
 
-    console.log(item)
+    console.log(person.item.name,"person")
 
     return (
         <View>
@@ -25,8 +25,8 @@ export default function PeopleAbout({ navigation, route }) {
                 >
                 </ImageBackground>
             </View>
-            <View>
-                <Text style={{ color: "white" }} >{item.name}</Text>
+            <View style={styles.infoText}>
+                <Text style={{ color: "white" }} >{person.item.name}</Text>
             </View>
         </View>
     );

@@ -998,6 +998,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@chenng/react-native-shake-event@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@chenng/react-native-shake-event/-/react-native-shake-event-1.0.4.tgz#1bf8321283960021061295b57658baa3156b6644"
+  integrity sha512-5Tjhz6KBWVYFS4VWUhkzEYwGpZD9os0JlEFW5Cl8aRkmuYPvsSeHffGgjO861679AvTBp7MGUJqUvTbOKaqvNQ==
+  dependencies:
+    invariant "^2.2.2"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1134,6 +1141,13 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
+
+"@react-native-async-storage/async-storage@^1.13.2":
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/@react-native-async-storage/async-storage/-/async-storage-1.13.2.tgz#649f78527f16cd5a87071a888219ef7a35ef5c79"
+  integrity sha512-isTDvUApRJPVWFxV15yrQSOGqarX7cIedq/y4N5yWSnotf68D9qvDEv1I7rCXhkBDi0u4OJt6GA9dksUT0D3wg==
+  dependencies:
+    deep-assign "^3.0.0"
 
 "@react-native-community/cli-debugger-ui@^4.9.0":
   version "4.9.0"
@@ -2525,6 +2539,13 @@ expo-permissions@~9.3.0:
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-9.3.0.tgz#b90c7e9e411d306c1c7ba2bae18d5c53c201affd"
   integrity sha512-ylSJZVvEGJVFTKsFrUL2S6gCvFt+/o8TJ3xT4WaMjHe2/2Z7R8ng6NR47Kt54t7XBIV/SZ7DIY9uRiR7TPuNYA==
 
+expo-sensors@~9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-9.1.0.tgz#2320281fc5fbf1d64609a11d2bcdb6d248dbe0ea"
+  integrity sha512-YDP+Naj/AoXPiAz02shxqVyJMMdYDVKpuA15M9a/KUoL8tiajLoxkRwgGP37UYMU3po3tK5T9PKDEFHQAlQNtw==
+  dependencies:
+    invariant "^2.2.4"
+
 expo-splash-screen@^0.6.1:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.6.2.tgz#2be7fc28ad62549e870c69f1fe133ebe756c524f"
@@ -3070,7 +3091,7 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.2, invariant@^2.2.4, invariant@^2.2.x:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -4618,6 +4639,13 @@ react-native-screens@~2.10.1:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.10.1.tgz#06d22fae87ef0ce51c616c34a199726db1403b95"
   integrity sha512-Z2kKSk4AwWRQNCBmTjViuBQK0/Lx0jc25TZptn/2gKYUCOuVRvCekoA26u0Tsb3BIQ8tWDsZW14OwDlFUXW1aw==
 
+react-native-shake@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-shake/-/react-native-shake-3.5.0.tgz#6eb1c6bfa59065b2b6b7aa7250532aa6558b41bc"
+  integrity sha512-Sf3xFybq6Ps0eq4K5auGgSHQihKn+ixLhikIerhYbB3HhVeB38Un6vei7k3ugMWxcUCUG7kbVEIn3a2g9afkpA==
+  dependencies:
+    invariant "^2.2.x"
+
 react-native-web@~0.13.12:
   version "0.13.18"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.13.18.tgz#964f058a16521a3b9a31b091415edfef5b6ef305"
@@ -4986,6 +5014,11 @@ setprototypeof@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
+
+shake-observer@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/shake-observer/-/shake-observer-0.1.0.tgz#e73a98b720c04b8467e113cd0c43a725e2df43d3"
+  integrity sha512-AGkGQtodNZzM94yDKJkT9Z3weEjBkAyOr8mRUcl/LhBRWAlB9oPcctr5VA6YRcwn0MbOGAL3Pl8Zs136rl+zPA==
 
 shebang-command@^1.2.0:
   version "1.2.0"
